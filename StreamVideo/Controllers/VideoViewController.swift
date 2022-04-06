@@ -78,8 +78,6 @@ class VideoViewController: UIViewController {
     }
 }
 
-// MARK: - Extensions
-
 extension VideoViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return qualityTypeChannel.count
